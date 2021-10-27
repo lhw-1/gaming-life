@@ -69,22 +69,32 @@ h3 {
     font-size: 1.3vw;
 }
 
-.caption-header-page.subscribe {
-    color: #152947;
+.caption-header-page-subscribe {
+    color: #0b2244;
     font-size: 2.5vw;
     font-weight: bold;
+    text-align: center;
 }
 
-.caption-text-page.subscribe {
-    color: #1a365f;
+.caption-text-page-subscribe {
+    color: #17396d;
+    font-weight: bold;
     font-size: 1.3vw;
+    text-align: center;
 }
 
 .banner-text-page {
     position: absolute;
     left: 10%;
+    top: 12%;
+    right: 56%;
+}
+
+.banner-text-page-subscribe {
+    position: absolute;
+    left: 12%;
     top: 15%;
-    right: 54%;
+    right: 12%;
 }
 
 .nav-link {
@@ -191,4 +201,37 @@ h3 {
 
 .subheading-modal {
     font-size: 16px;
+}
+
+.icon-subscribe {
+    height: 2vw;
+    width: 2vw;
+}
+
+.table-subscribe-body {
+    opacity: 0.9;
+}
+
+.btn-subscribe {
+    width: 10vw;
+    font-size: 1.2vw;
+}
+
+.btn-subscribe:hover {
+    opacity: 0.8;
+}
+
+.btn-subscribe.basic {
+    background-color: #ebad39;
+    border-color: #ebad39;
+}
+
+.btn-subscribe.standard {
+    background-color: #79aa38;
+    border-color: #79aa38;
+}
+
+.btn-subscribe.premium {
+    background-color: #2b7e39;
+    border-color: #2b7e39;
 }

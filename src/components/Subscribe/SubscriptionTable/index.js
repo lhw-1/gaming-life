@@ -1,36 +1,63 @@
 import React from 'react';
-import { Table } from 'react-bootstrap';
+import { Button, Table } from 'react-bootstrap';
+
+import tick_icon from '../../../assets/tick.png';
+import cross_icon from '../../../assets/cross.png';
 
 const SubscriptionTable = () => {
-    const text = "..."
+    const tick = <img className="icon-subscribe" src={tick_icon} />;
+    const cross = <img className="icon-subscribe" src={cross_icon} />;
+
     return (
-        <Table striped bordered hover>
+        <Table striped bordered hover variant="dark">
             <thead>
                 <tr>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
+                <th>Plans:</th>
+                <th>Basic</th>
+                <th>Standard</th>
+                <th>Premium</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody className="table-subscribe-body">
                 <tr>
-                <td> </td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                    <td>Unlimited Placards</td>
+                    <td>{tick}</td>
+                    <td>{tick}</td>
+                    <td>{tick}</td>
                 </tr>
                 <tr>
-                <td colSpan="2">0</td>
-                <td>0</td>
-                <td>0</td>
+                    <td>Customizable Environments</td>
+                    <td>{cross}</td>
+                    <td>{tick}</td>
+                    <td>{tick}</td>
                 </tr>
                 <tr>
-                <td>0</td>
-                <td colSpan="2">0</td>
-                <td>0</td>
+                    <td>Unlimited Timetable Optimizations</td>
+                    <td>{cross}</td>
+                    <td>{tick}</td>
+                    <td>{tick}</td>
+                </tr>
+                <tr>
+                    <td>Personalized Study Plan</td>
+                    <td>{cross}</td>
+                    <td>{cross}</td>
+                    <td>{tick}</td>
+                </tr>
+                <tr>
+                    <td>Private Tutoring</td>
+                    <td>{cross}</td>
+                    <td>{cross}</td>
+                    <td>{tick}</td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td>Sign me up for: </td>
+                    <td><Button className="btn-subscribe basic" href="/warning">Basic</Button></td>
+                    <td><Button className="btn-subscribe standard" href="/warning">Standard</Button></td>
+                    <td><Button className="btn-subscribe premium" href="/warning">Premium</Button></td>
+                </tr>
+            </tfoot>
         </Table>
     );
 };
