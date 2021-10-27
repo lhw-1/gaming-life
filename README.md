@@ -1,2 +1,24 @@
-# gaming-life
-Web application project for NUS UTCP module UTC2113: Gaming Life 
+# Gaming Life
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This web application was made as a project for a module taken as part of the University Town College Programme (UTCP). The module is UTC2113: Gaming Life, a Senior Seminar in Tembusu Residential College.
+
+The website aims to simulate a standard, modern product website designed to get the users to subscribe to their product. As it is not meant to simulate the subscription process or an actual product, the website contains minimal information related to these aspects. 
+
+Once the user chooses a subscription plan, the website will redirect the user to a page that explains the motivation behind the conceptualisation of this prototype website, as well as the concepts and the critique of modern marketing that I examined through the lens of "Gaming", with this website as an example.
+
+The website is currently NOT hosted, but will be hosted on GitHub pages once it has been completed.
+
+## Development
+
+In order to run the website locally, or make edits to the codebase:
+
+1. Clone this repository to your local drive.
+2. `npm start` will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) or [http://localhost:8080](http://localhost:8080), depending on your system, in order to view it in your browser.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
