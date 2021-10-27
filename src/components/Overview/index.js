@@ -6,8 +6,8 @@ import Footer from '../Footer';
 import '../styles.css';
 
 const Overview = () => {
-    const text1 = "Our application is a downloadable application that can be installed on both Desktop and Mobile, for your convenience! "
-        + "The download link will be sent to you after you have subscribed to one of our service plans. ";
+    const text1 = "Our application is a downloadable application that can be installed on both Desktop and Mobile. "
+        + "The download link to our app will be sent to you after subscription. ";
     const text2 = "Once you download our application, you will be asked to enter your preferences and details. "
         + "Don't worry - we will only use this information for setting up a timetable perfectly tailored to your personal needs! "
         + "Once your timetable has been setup, you can upload your study materials to our application. ";
