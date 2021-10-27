@@ -147,9 +147,13 @@ h3 {
 }
 
 .text-warning {
-    color: #ffffff !important;
+    color: #ff0000 !important;
     font-size: 3vw;
     text-align: center;
+}
+
+.text-warning.warning-two {
+    color: #ff6600 !important;
 }
 
 .text-explanation {
