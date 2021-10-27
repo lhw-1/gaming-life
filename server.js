@@ -8,10 +8,15 @@ if (process.env.NODE_ENV === 'production') {
   
     // Express serve up index.html file if it doesn't recognize route
     app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'src', 'index.html'));
+        res.sendFile(path.resolve(__dirname, 'src', 'index.js'));
     });
+
+    console.log("LOG: Production mode...");
+
 } else {
     app.use(express.static(path.join(__dirname, 'dist')));
+
+    console.log("LOG: Development mode...");
 }
 
 app.set('port', process.env.PORT || 8080);
