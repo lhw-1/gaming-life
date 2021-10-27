@@ -1,6 +1,6 @@
 # Gaming Life
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with [Webpack](https://webpack.js.org/).
 
 This web application was made as a project for a module taken as part of the University Town College Programme (UTCP). The module is UTC2113: Gaming Life, a Senior Seminar in Tembusu Residential College.
 
@@ -15,10 +15,8 @@ The website is currently NOT hosted, but will be hosted on GitHub pages once it 
 In order to run the website locally, or make edits to the codebase:
 
 1. Clone this repository to your local drive.
-2. `npm start` will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) or [http://localhost:8080](http://localhost:8080), depending on your system, in order to view it in your browser.
+2. `npm run dev` will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) or [http://localhost:8080](http://localhost:8080), depending on your system, in order to view it in your browser.
 
 ## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
