@@ -8,7 +8,7 @@ The website aims to simulate a standard, modern product website designed to get 
 
 Once the user chooses a subscription plan, the website will redirect the user to a page that explains the motivation behind the conceptualisation of this prototype website, as well as the concepts and the critique of modern marketing that I examined through the lens of "Gaming", with this website as an example.
 
-The website is currently NOT hosted, but will be hosted on GitHub pages once it has been completed.
+The website is currently hosted on Heroku. You can access it via [https://gaming-life-lhw-1.herokuapp.com/](https://gaming-life-lhw-1.herokuapp.com/).
 
 ## Development
 
