@@ -215,6 +215,7 @@ h3 {
 .btn-subscribe {
     width: 10vw;
     font-size: 1.2vw;
+    font-weight: bold;
 }
 
 .btn-subscribe:hover {
