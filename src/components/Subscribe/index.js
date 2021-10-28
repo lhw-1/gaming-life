@@ -8,7 +8,7 @@ import SubscriptionTable from './SubscriptionTable';
 import '../styles.css';
 
 const Subscribe = () => {
-    const text1 = "To get started with Memit today, choose one of the plans below!";
+    const text1 = "Get started with Memit today! Choose one of the plans below.";
     const text2 = <br />;
     return (
         <div>

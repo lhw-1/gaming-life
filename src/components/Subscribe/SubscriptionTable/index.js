@@ -49,14 +49,14 @@ const SubscriptionTable = () => {
                     <td>{cross}</td>
                     <td>{tick}</td>
                 </tr>
+            </tbody>
+            <tfoot>
                 <tr>
                     <td>Cost: </td>
                     <td>$20 / month</td>
                     <td>$50 / month</td>
                     <td>$100 / month</td>
                 </tr>
-            </tbody>
-            <tfoot>
                 <tr>
                     <td>Sign me up for: </td>
                     <td><Button className="btn-subscribe basic" href="/warning">Basic</Button></td>
