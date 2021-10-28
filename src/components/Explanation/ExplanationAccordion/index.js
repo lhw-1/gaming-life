@@ -230,15 +230,15 @@ const ExplanationAccordion = () => {
                     </p>
                     <p>It is through this bias that the sombre reality of the Game of Identity is revealed. The website, the artificial persona,
                         has all the power to impose its identity onto you; and you, as the user and the player, has only two choice: Accept or Reject.
-                    </p>
-                    <p>
-                        And we now see the <em>corruption</em> of the ideal. What may have started out as a genuine desire to help others improve
-                        has turned into a marketable product, framed as a game in which you are powerless and only have two choices. And should you
-                        reject the product and the beliefs it represents, the impact on the company is disproportionately insignificant; after all, 
-                        you are simply one of their many customers. And it is here that perhaps the idea of the Panopticon can once again be relevant: 
+                        Should you accept the product, the website has successfully imposed its identity onto you, and will have gained yet another customer.
+                        But should you reject the product and the beliefs it represents, the impact on the company is disproportionately insignificant; after all, 
+                        you are simply one of their many potential customers. Here, perhaps the idea of the Panopticon can once again be relevant: 
                         just as the Panopticon has one guard to potentially watch over the many prisoners, the company has the website to surveil and 
                         impose beliefs on its customers, its consumers. And the key difference here is that unlike the guard, a website is a digital 
                         entity that can simultaneously watch over all of its users at once.
+                    </p>
+                    <p>And now, we can see the <strong>Corruption</strong> of the ideal, manifesting itself as a game. What may have started out as a 
+                        genuine desire to help others improve has turned into a marketable product, framed as a game in which you are powerless and only have two choices. 
                     </p>
                 </Accordion.Body>
             </Accordion.Item>
